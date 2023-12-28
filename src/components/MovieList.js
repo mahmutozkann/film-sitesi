@@ -41,6 +41,8 @@ const MovieList = ({ movies, onMovieClick }) => {
                 <p>{isLoggedIn ? 'No movies available.' : 'Please log in to see movies.'}</p>
             )}
             <MovieDetailPanel selectedMovie={selectedMovie} />
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9673001142803835"
+                crossorigin="anonymous"></script>
         </div>
     );
 };
