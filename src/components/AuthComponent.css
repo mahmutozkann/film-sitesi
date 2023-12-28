@@ -1,0 +1,98 @@
+/* AuthComponent.css */
+
+.auth-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.auth-form {
+    text-align: center;
+}
+
+.login-image {
+    width: 100%;
+
+    margin-bottom: 20px;
+
+}
+
+.auth-inputs {
+    margin-bottom: 15px;
+}
+
+.auth-inputs label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.auth-inputs input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.auth-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth-buttons button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.auth-header {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 10px;
+}
+
+.auth-button {
+
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+    background-color: #0056b3;
+}
+
+.auth-header>h2 {
+    margin: 0;
+}
