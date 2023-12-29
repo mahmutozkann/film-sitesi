@@ -61,7 +61,7 @@ class AuthService {
         console.log('Kullanıcı başarıyla çıkış yaptı.');
     };
 
-    // Kullanıcı durumu değiştiğinde bu fonksiyon çalışacak
+
     static watchAuthState = (callback) => {
         onAuthStateChanged(auth, (user) => {
             callback(user);

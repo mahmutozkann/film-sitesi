@@ -24,9 +24,15 @@ const AuthComponent = () => {
 
     const handleRegister = async () => {
         try {
-            await AuthService.registerUser(email, password);
-            setLoggedIn(true);
-            navigate('/');
+            const registerSuccess = await AuthService.registerUser(email, password);
+            if (registerSuccess) {
+                setLoggedIn(true);
+                navigate('/');
+            } else {
+                setLoggedIn(false);
+                setError("Kayıt Hatası");
+            }
+
         } catch (error) {
             setLoggedIn(false);
             setError(error.message);
