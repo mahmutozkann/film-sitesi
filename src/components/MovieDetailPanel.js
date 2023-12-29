@@ -1,5 +1,5 @@
 
-// src/components/MovieDetailPanel.js
+
 import React from 'react';
 import './MovieDetailPanel.css';
 import AuthService, { db } from '../services/AuthService';

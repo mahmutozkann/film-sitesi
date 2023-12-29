@@ -1,4 +1,4 @@
-// src/components/Profile.js
+
 import React, { useState, useEffect } from 'react';
 import AuthService, { db } from '../services/AuthService';
 import './Profile.css'

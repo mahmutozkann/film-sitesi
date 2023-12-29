@@ -1,5 +1,3 @@
-/* AuthComponent.css */
-
 .auth-form {
     background-color: rgba(255, 255, 255, 0.8);
     max-width: 400px;
@@ -59,7 +57,7 @@
 }
 
 .auth-buttons button:hover {
-    background-color: #21b416;
+    background-color: #022f45;
 }
 
 .error-message {
